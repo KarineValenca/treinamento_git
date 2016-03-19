@@ -1,0 +1,51 @@
+Aula git
+
+Instalação: 
+	Linux
+		sudo apt-get install git
+
+	Mac
+		http://sourceforge.net/projects/git-osx-installer/
+cd
+Criar conta no github
+	github.com
+	
+
+Configuranção
+	git config --global user.name "Seu nome" 
+	git config --global user.email "email@seu.com"
+
+Criar reposisório
+
+Criar pasta 
+	mkdir galera_de_mds
+	cd galera_de_mds
+
+Iniciar git
+	git init
+	git status
+	**criação do repositório local**
+
+Criar arquivo
+	Inserir informações
+
+Primeiro commit 
+	git status
+	git add "nome do arquivo"
+	git commit -m "inserido informações iniciais"	
+	git log
+
+Adicionando repositório remoto git
+	git remote add origin https://github.com/"GITREPO"
+	git remote -v
+	**criação do repositório remoto**
+
+
+Enviando arquivos para repositório remoto
+	git status
+	git push origin master
+
+
+
+	**tudo isso para quando for seu repositório**
+CLONANDO REPOSITÓRIOS
